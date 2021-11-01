@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "volterra" {
-  # Configuration options
+  # Configuration options.
   url          = format("https://%s.console.ves.volterra.io/api", var.tenant)
   api_p12_file = var.api_p12_path
 }
