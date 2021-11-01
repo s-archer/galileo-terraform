@@ -5,6 +5,7 @@ variable "tenant" {
 variable "api_p12_path" {
   type = string
 }
+
 variable "namespace" {
   type = string
 }
@@ -12,6 +13,7 @@ variable "namespace" {
 variable "shortname" {
   type = string
 }
+
 variable "origin_port" {
   type = string
 }
