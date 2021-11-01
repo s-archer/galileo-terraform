@@ -1,0 +1,543 @@
+source: 2
+revision: 14
+description: null
+createdBy:
+    displayName: Stephen Archer
+    url: >-
+        https://spsproduks1.vssps.visualstudio.com/Aaec50ebc-e6b6-4b21-b201-2c7dfc5ddc3d/_apis/Identities/23df595e-3a21-677c-86b4-21f2cf44c6e3
+    _links:
+        avatar:
+            href: >-
+                https://dev.azure.com/Stephen-Archer/_apis/GraphProfile/MemberAvatars/aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
+    id: 23df595e-3a21-677c-86b4-21f2cf44c6e3
+    uniqueName: S.Archer@F5.com
+    imageUrl: >-
+        https://dev.azure.com/Stephen-Archer/_apis/GraphProfile/MemberAvatars/aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
+    descriptor: aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
+createdOn: '2021-11-01T15:34:49.543Z'
+modifiedBy:
+    displayName: Stephen Archer
+    url: >-
+        https://spsproduks1.vssps.visualstudio.com/Aaec50ebc-e6b6-4b21-b201-2c7dfc5ddc3d/_apis/Identities/23df595e-3a21-677c-86b4-21f2cf44c6e3
+    _links:
+        avatar:
+            href: >-
+                https://dev.azure.com/Stephen-Archer/_apis/GraphProfile/MemberAvatars/aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
+    id: 23df595e-3a21-677c-86b4-21f2cf44c6e3
+    uniqueName: S.Archer@F5.com
+    imageUrl: >-
+        https://dev.azure.com/Stephen-Archer/_apis/GraphProfile/MemberAvatars/aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
+    descriptor: aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
+modifiedOn: '2021-11-01T18:32:25.257Z'
+isDeleted: false
+lastRelease:
+    id: 24
+    name: Release-12
+    artifacts: []
+    _links: {}
+    description: Triggered by galileo-terraform-CI-v3 6.
+    releaseDefinition:
+        id: 3
+        projectReference: null
+        _links: {}
+    createdOn: '2021-11-01T20:12:02.710Z'
+    createdBy:
+        displayName: Stephen Archer
+        url: >-
+            https://spsproduks1.vssps.visualstudio.com/Aaec50ebc-e6b6-4b21-b201-2c7dfc5ddc3d/_apis/Identities/23df595e-3a21-677c-86b4-21f2cf44c6e3
+        _links:
+            avatar:
+                href: >-
+                    https://dev.azure.com/Stephen-Archer/_apis/GraphProfile/MemberAvatars/aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
+        id: 23df595e-3a21-677c-86b4-21f2cf44c6e3
+        uniqueName: S.Archer@F5.com
+        imageUrl: >-
+            https://dev.azure.com/Stephen-Archer/_apis/GraphProfile/MemberAvatars/aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
+        descriptor: aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
+variables: {}
+variableGroups: []
+environments:
+    -
+        id: 3
+        name: Terraform Preparation
+        rank: 1
+        owner:
+            displayName: Stephen Archer
+            url: >-
+                https://spsproduks1.vssps.visualstudio.com/Aaec50ebc-e6b6-4b21-b201-2c7dfc5ddc3d/_apis/Identities/23df595e-3a21-677c-86b4-21f2cf44c6e3
+            _links:
+                avatar:
+                    href: >-
+                        https://dev.azure.com/Stephen-Archer/_apis/GraphProfile/MemberAvatars/aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
+            id: 23df595e-3a21-677c-86b4-21f2cf44c6e3
+            uniqueName: S.Archer@F5.com
+            imageUrl: >-
+                https://dev.azure.com/Stephen-Archer/_apis/GraphProfile/MemberAvatars/aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
+            descriptor: aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
+        variables: {}
+        variableGroups: []
+        preDeployApprovals:
+            approvals:
+                -
+                    rank: 1
+                    isAutomated: true
+                    isNotificationOn: false
+                    id: 7
+            approvalOptions:
+                requiredApproverCount: null
+                releaseCreatorCanBeApprover: false
+                autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped: false
+                enforceIdentityRevalidation: false
+                timeoutInMinutes: 0
+                executionOrder: 1
+        deployStep:
+            id: 8
+        postDeployApprovals:
+            approvals:
+                -
+                    rank: 1
+                    isAutomated: true
+                    isNotificationOn: false
+                    id: 9
+            approvalOptions:
+                requiredApproverCount: null
+                releaseCreatorCanBeApprover: false
+                autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped: false
+                enforceIdentityRevalidation: false
+                timeoutInMinutes: 0
+                executionOrder: 2
+        deployPhases:
+            -
+                deploymentInput:
+                    parallelExecution:
+                        parallelExecutionType: 0
+                    agentSpecification:
+                        identifier: ubuntu-20.04
+                    skipArtifactsDownload: false
+                    artifactsDownloadInput:
+                        downloadInputs: []
+                    queueId: 18
+                    demands: []
+                    enableAccessToken: false
+                    timeoutInMinutes: 0
+                    jobCancelTimeoutInMinutes: 1
+                    condition: succeeded()
+                    overrideInputs: {}
+                rank: 1
+                phaseType: 1
+                name: Agent job
+                refName: null
+                workflowTasks:
+                    -
+                        environment: {}
+                        taskId: 11645770-d18e-11e8-8f5b-1b8b62612b3b
+                        version: 0.*
+                        name: Use Terraform latest
+                        refName: ''
+                        enabled: true
+                        alwaysRun: false
+                        continueOnError: false
+                        timeoutInMinutes: 0
+                        retryCountOnTaskFailure: 0
+                        definitionType: task
+                        overrideInputs: {}
+                        condition: succeeded()
+                        inputs:
+                            terraformVersion: latest
+                            downloadUrl: ''
+                    -
+                        environment: {}
+                        taskId: 721c3f90-d938-11e8-9d92-09d7594721b5
+                        version: 0.*
+                        name: terraform init
+                        refName: ''
+                        enabled: true
+                        alwaysRun: false
+                        continueOnError: false
+                        timeoutInMinutes: 0
+                        retryCountOnTaskFailure: 0
+                        definitionType: task
+                        overrideInputs: {}
+                        condition: succeeded()
+                        inputs:
+                            command: init
+                            workingDirectory: >-
+                                $(System.DefaultWorkingDirectory)/_galileo-terraform-CI-v3/drop/Terraform
+                            environmentServiceName: ''
+                            runAzLogin: 'false'
+                            secureVarsFile: ''
+                            workspaceSubCommand: select
+                            commandOptions: ''
+                            backendType: local
+                            backendServiceArm: ''
+                            ensureBackend: 'false'
+                            backendAzureRmResourceGroupName: ''
+                            backendAzureRmResourceGroupLocation: ''
+                            backendAzureRmStorageAccountName: ''
+                            backendAzureRmStorageAccountSku: Standard_RAGRS
+                            backendAzureRmContainerName: ''
+                            backendAzureRmKey: ''
+                            aiInstrumentationKey: ec11a02f-c97a-4b55-8005-acf129682668
+                            allowTelemetryCollection: 'true'
+                            inputTargetPlanOrStateFilePath: ''
+                            resourceAddress: ''
+                            resourceId: ''
+                            lockID: ''
+                            publishPlanResults: ''
+                            workspaceName: ''
+                    -
+                        environment: {}
+                        taskId: 721c3f90-d938-11e8-9d92-09d7594721b5
+                        version: 0.*
+                        name: terraform validate
+                        refName: ''
+                        enabled: true
+                        alwaysRun: false
+                        continueOnError: false
+                        timeoutInMinutes: 0
+                        retryCountOnTaskFailure: 0
+                        definitionType: task
+                        overrideInputs: {}
+                        condition: succeeded()
+                        inputs:
+                            command: validate
+                            workingDirectory: >-
+                                $(System.DefaultWorkingDirectory)/_galileo-terraform-CI-v3/drop/Terraform
+                            environmentServiceName: ''
+                            runAzLogin: 'false'
+                            secureVarsFile: ''
+                            workspaceSubCommand: select
+                            commandOptions: ''
+                            backendType: local
+                            backendServiceArm: ''
+                            ensureBackend: 'false'
+                            backendAzureRmResourceGroupName: ''
+                            backendAzureRmResourceGroupLocation: ''
+                            backendAzureRmStorageAccountName: ''
+                            backendAzureRmStorageAccountSku: Standard_RAGRS
+                            backendAzureRmContainerName: ''
+                            backendAzureRmKey: ''
+                            aiInstrumentationKey: ec11a02f-c97a-4b55-8005-acf129682668
+                            allowTelemetryCollection: 'true'
+                            inputTargetPlanOrStateFilePath: ''
+                            resourceAddress: ''
+                            resourceId: ''
+                            lockID: ''
+                            publishPlanResults: ''
+                            workspaceName: ''
+                    -
+                        environment: {}
+                        taskId: 721c3f90-d938-11e8-9d92-09d7594721b5
+                        version: 0.*
+                        name: terraform plan
+                        refName: ''
+                        enabled: true
+                        alwaysRun: false
+                        continueOnError: false
+                        timeoutInMinutes: 0
+                        retryCountOnTaskFailure: 0
+                        definitionType: task
+                        overrideInputs: {}
+                        condition: succeeded()
+                        inputs:
+                            command: plan
+                            workingDirectory: >-
+                                $(System.DefaultWorkingDirectory)/_galileo-terraform-CI-v3/drop/Terraform
+                            environmentServiceName: ''
+                            runAzLogin: 'false'
+                            secureVarsFile: ''
+                            workspaceSubCommand: select
+                            commandOptions: ''
+                            backendType: local
+                            backendServiceArm: ''
+                            ensureBackend: 'false'
+                            backendAzureRmResourceGroupName: ''
+                            backendAzureRmResourceGroupLocation: ''
+                            backendAzureRmStorageAccountName: ''
+                            backendAzureRmStorageAccountSku: Standard_RAGRS
+                            backendAzureRmContainerName: ''
+                            backendAzureRmKey: ''
+                            aiInstrumentationKey: ec11a02f-c97a-4b55-8005-acf129682668
+                            allowTelemetryCollection: 'true'
+                            inputTargetPlanOrStateFilePath: ''
+                            resourceAddress: ''
+                            resourceId: ''
+                            lockID: ''
+                            publishPlanResults: ''
+                            workspaceName: ''
+        environmentOptions:
+            emailNotificationType: OnlyOnFailure
+            emailRecipients: release.environment.owner;release.creator
+            skipArtifactsDownload: false
+            timeoutInMinutes: 0
+            enableAccessToken: false
+            publishDeploymentStatus: true
+            badgeEnabled: false
+            autoLinkWorkItems: false
+            pullRequestDeploymentEnabled: false
+        demands: []
+        conditions:
+            -
+                name: ReleaseStarted
+                conditionType: 1
+                value: ''
+        executionPolicy:
+            concurrencyCount: 1
+            queueDepthCount: 0
+        schedules: []
+        currentRelease:
+            id: 24
+            url: >-
+                https://vsrm.dev.azure.com/Stephen-Archer/7144d3b7-b080-478b-a52e-9bc928c8f29d/_apis/Release/releases/24
+            _links: {}
+        retentionPolicy:
+            daysToKeep: 30
+            releasesToKeep: 3
+            retainBuild: true
+        processParameters: {}
+        properties:
+            BoardsEnvironmentType:
+                $type: System.String
+                $value: unmapped
+            LinkBoardsWorkItems:
+                $type: System.String
+                $value: 'False'
+        preDeploymentGates:
+            id: 0
+            gatesOptions: null
+            gates: []
+        postDeploymentGates:
+            id: 0
+            gatesOptions: null
+            gates: []
+        environmentTriggers: []
+        badgeUrl: >-
+            https://vsrm.dev.azure.com/Stephen-Archer/_apis/public/Release/badge/7144d3b7-b080-478b-a52e-9bc928c8f29d/3/3
+    -
+        id: 4
+        name: Terraform Apply
+        rank: 2
+        owner:
+            displayName: Stephen Archer
+            url: >-
+                https://spsproduks1.vssps.visualstudio.com/Aaec50ebc-e6b6-4b21-b201-2c7dfc5ddc3d/_apis/Identities/23df595e-3a21-677c-86b4-21f2cf44c6e3
+            _links:
+                avatar:
+                    href: >-
+                        https://dev.azure.com/Stephen-Archer/_apis/GraphProfile/MemberAvatars/aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
+            id: 23df595e-3a21-677c-86b4-21f2cf44c6e3
+            uniqueName: S.Archer@F5.com
+            imageUrl: >-
+                https://dev.azure.com/Stephen-Archer/_apis/GraphProfile/MemberAvatars/aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
+            descriptor: aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
+        variables: {}
+        variableGroups: []
+        preDeployApprovals:
+            approvals:
+                -
+                    rank: 1
+                    isAutomated: true
+                    isNotificationOn: false
+                    id: 10
+            approvalOptions:
+                requiredApproverCount: null
+                releaseCreatorCanBeApprover: false
+                autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped: false
+                enforceIdentityRevalidation: false
+                timeoutInMinutes: 0
+                executionOrder: 1
+        deployStep:
+            id: 11
+        postDeployApprovals:
+            approvals:
+                -
+                    rank: 1
+                    isAutomated: true
+                    isNotificationOn: false
+                    id: 12
+            approvalOptions:
+                requiredApproverCount: null
+                releaseCreatorCanBeApprover: false
+                autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped: false
+                enforceIdentityRevalidation: false
+                timeoutInMinutes: 0
+                executionOrder: 2
+        deployPhases:
+            -
+                deploymentInput:
+                    parallelExecution:
+                        parallelExecutionType: 0
+                    agentSpecification:
+                        identifier: ubuntu-20.04
+                    skipArtifactsDownload: false
+                    artifactsDownloadInput:
+                        downloadInputs: []
+                    queueId: 18
+                    demands: []
+                    enableAccessToken: false
+                    timeoutInMinutes: 0
+                    jobCancelTimeoutInMinutes: 1
+                    condition: succeeded()
+                    overrideInputs: {}
+                rank: 1
+                phaseType: 1
+                name: Agent job
+                refName: null
+                workflowTasks:
+                    -
+                        environment: {}
+                        taskId: 721c3f90-d938-11e8-9d92-09d7594721b5
+                        version: 0.*
+                        name: terraform apply
+                        refName: ''
+                        enabled: true
+                        alwaysRun: false
+                        continueOnError: false
+                        timeoutInMinutes: 0
+                        retryCountOnTaskFailure: 0
+                        definitionType: task
+                        overrideInputs: {}
+                        condition: succeeded()
+                        inputs:
+                            command: apply
+                            workingDirectory: >-
+                                $(System.DefaultWorkingDirectory)/_galileo-terraform-CI-v3/drop/Terraform
+                            environmentServiceName: ''
+                            runAzLogin: 'false'
+                            secureVarsFile: ''
+                            workspaceSubCommand: select
+                            commandOptions: ''
+                            backendType: local
+                            backendServiceArm: ''
+                            ensureBackend: 'false'
+                            backendAzureRmResourceGroupName: ''
+                            backendAzureRmResourceGroupLocation: ''
+                            backendAzureRmStorageAccountName: ''
+                            backendAzureRmStorageAccountSku: Standard_RAGRS
+                            backendAzureRmContainerName: ''
+                            backendAzureRmKey: ''
+                            aiInstrumentationKey: ec11a02f-c97a-4b55-8005-acf129682668
+                            allowTelemetryCollection: 'true'
+                            inputTargetPlanOrStateFilePath: ''
+                            resourceAddress: ''
+                            resourceId: ''
+                            lockID: ''
+                            publishPlanResults: ''
+                            workspaceName: ''
+        environmentOptions:
+            emailNotificationType: OnlyOnFailure
+            emailRecipients: release.environment.owner;release.creator
+            skipArtifactsDownload: false
+            timeoutInMinutes: 0
+            enableAccessToken: false
+            publishDeploymentStatus: true
+            badgeEnabled: false
+            autoLinkWorkItems: false
+            pullRequestDeploymentEnabled: false
+        demands: []
+        conditions:
+            -
+                name: Terraform Preparation
+                conditionType: 2
+                value: '4'
+        executionPolicy:
+            concurrencyCount: 1
+            queueDepthCount: 0
+        schedules: []
+        currentRelease:
+            id: 0
+            url: >-
+                https://vsrm.dev.azure.com/Stephen-Archer/7144d3b7-b080-478b-a52e-9bc928c8f29d/_apis/Release/releases/0
+            _links: {}
+        retentionPolicy:
+            daysToKeep: 30
+            releasesToKeep: 3
+            retainBuild: true
+        processParameters: {}
+        properties:
+            BoardsEnvironmentType:
+                $type: System.String
+                $value: unmapped
+            LinkBoardsWorkItems:
+                $type: System.String
+                $value: 'False'
+        preDeploymentGates:
+            id: 0
+            gatesOptions: null
+            gates: []
+        postDeploymentGates:
+            id: 0
+            gatesOptions: null
+            gates: []
+        environmentTriggers: []
+        badgeUrl: >-
+            https://vsrm.dev.azure.com/Stephen-Archer/_apis/public/Release/badge/7144d3b7-b080-478b-a52e-9bc928c8f29d/3/4
+artifacts:
+    -
+        sourceId: 7144d3b7-b080-478b-a52e-9bc928c8f29d:3
+        type: Build
+        alias: _galileo-terraform-CI-v3
+        definitionReference:
+            artifactSourceDefinitionUrl:
+                id: >-
+                    https://dev.azure.com/Stephen-Archer/_permalink/_build/index?collectionId=525c857d-1878-4ab1-8fb8-995d71edf36a&projectId=7144d3b7-b080-478b-a52e-9bc928c8f29d&definitionId=3
+                name: ''
+            defaultVersionBranch:
+                id: ''
+                name: ''
+            defaultVersionSpecific:
+                id: ''
+                name: ''
+            defaultVersionTags:
+                id: ''
+                name: ''
+            defaultVersionType:
+                id: latestType
+                name: Latest
+            definition:
+                id: '3'
+                name: galileo-terraform-CI-v3
+            definitions:
+                id: ''
+                name: ''
+            IsMultiDefinitionType:
+                id: 'False'
+                name: 'False'
+            project:
+                id: 7144d3b7-b080-478b-a52e-9bc928c8f29d
+                name: galileo-terraform
+            repository:
+                id: ''
+                name: ''
+        isPrimary: true
+        isRetained: false
+triggers:
+    -
+        artifactAlias: _galileo-terraform-CI-v3
+        triggerConditions: []
+        triggerType: 1
+releaseNameFormat: Release-$(rev:r)
+tags: []
+properties:
+    DefinitionCreationSource:
+        $type: System.String
+        $value: ReleaseNew
+    IntegrateBoardsWorkItems:
+        $type: System.String
+        $value: 'False'
+    IntegrateJiraWorkItems:
+        $type: System.String
+        $value: 'false'
+id: 3
+name: Release the Origin!
+path: \
+projectReference: null
+url: >-
+    https://vsrm.dev.azure.com/Stephen-Archer/7144d3b7-b080-478b-a52e-9bc928c8f29d/_apis/Release/definitions/3
+_links:
+    self:
+        href: >-
+            https://vsrm.dev.azure.com/Stephen-Archer/7144d3b7-b080-478b-a52e-9bc928c8f29d/_apis/Release/definitions/3
+    web:
+        href: >-
+            https://dev.azure.com/Stephen-Archer/7144d3b7-b080-478b-a52e-9bc928c8f29d/_release?definitionId=3

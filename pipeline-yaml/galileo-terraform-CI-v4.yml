@@ -1,0 +1,20 @@
+resources:
+  repositories:
+  - repository: self
+    type: git
+    ref: main
+jobs:
+- job: Create_Artifact
+  displayName: Agent Create_Artifact drop
+  pool:
+    vmImage: ubuntu-20.04
+  steps:
+  - checkout: self
+    clean: true
+  - task: CopyFiles@2
+    displayName: 'Copy Files to: $(build.artifactstagingdirectory)/Terraform'
+    inputs:
+      TargetFolder: $(build.artifactstagingdirectory)/Terraform
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Artifact: drop'
+...
