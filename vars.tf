@@ -1,27 +1,27 @@
-variable "tenant" {
+variable "TENANT" {
   type = string
 }
 
-variable "api_p12_path" {
+variable "API_P12_PATH" {
   type = string
 }
 
-variable "namespace" {
+variable "NAMESPACE" {
   type = string
 }
 
-variable "shortname" {
+variable "SHORTNAME" {
   type = string
 }
 
-variable "origin_port" {
+variable "ORIGIN_PORT" {
   type = string
 }
 
-variable "origin_ip" {
+variable "ORIGIN_IP" {
   type = string
 }
 
-variable "origin_site" {
+variable "ORIGIN_SITE" {
   type = string
 }

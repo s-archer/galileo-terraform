@@ -9,29 +9,29 @@ terraform {
 
 provider "volterra" {
   # Configuration options.
-  url          = format("https://%s.console.ves.volterra.io/api", var.tenant)
-  api_p12_file = var.api_p12_path
+  url          = format("https://%s.console.ves.volterra.io/api", var.TENANT)
+  api_p12_file = var.API_P12_PATH
 }
 
 resource "volterra_origin_pool" "gcp-origin" {
-  name                   = format("gcp-%s-tf", var.shortname)
-  namespace              = var.namespace
+  name                   = format("gcp-%s-tf", var.SHORTNAME)
+  namespace              = var.NAMESPACE
   description            = "Created by Terraform"
   endpoint_selection     = "LOCAL_PREFERRED"
   loadbalancer_algorithm = "LB_OVERRIDE"
 
-  port   = var.origin_port
+  port   = var.ORIGIN_PORT
   no_tls = true
 
   origin_servers {
     private_ip {
-      ip              = var.origin_ip
+      ip              = var.ORIGIN_IP
       outside_network = true
       site_locator {
         site {
           tenant    = null
           namespace = "system"
-          name      = var.origin_site
+          name      = var.ORIGIN_SITE
         }
       }
     }
