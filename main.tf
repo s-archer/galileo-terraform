@@ -1,4 +1,10 @@
 terraform {
+  backend "azurerm" {
+    resource_group_name  = "arch-volterra-tf-backend"
+    storage_account_name = "archvttfbackend"
+    container_name       = "gcp"
+    key                  = "nginx"
+  }
   required_providers {
     volterra = {
       source  = "volterraedge/volterra"
