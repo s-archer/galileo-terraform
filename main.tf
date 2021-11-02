@@ -43,3 +43,36 @@ resource "volterra_origin_pool" "gcp-origin" {
     }
   }
 }
+
+resource "volterra_http_loadbalancer" "gcp-nginx-lb" {
+  name                   = format("gcp-%s-tf", var.SHORTNAME)
+  namespace              = var.NAMESPACE
+  description            = "Created by Terraform"
+  domains                = [var.DOMAIN_NAME]
+
+  advertise_on_public_default_vip = true
+  no_challenge                    = true
+  round_robin                     = true
+  disable_rate_limit              = true
+  no_service_policies             = true
+  disable_waf                     = true
+
+  https_auto_cert {
+    add_hsts       = false
+    http_redirect  = true
+    no_mtls        = true
+    default_header = true
+
+    tls_config {
+      default_security = true
+    }
+  }
+
+  default_route_pools {
+    pool {
+      name      = volterra_origin_pool.gcp-origin.name
+      namespace = var.NAMESPACE
+    }
+    weight = 1
+  }
+}

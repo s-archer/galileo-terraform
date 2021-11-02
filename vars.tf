@@ -25,3 +25,7 @@ variable "ORIGIN_IP" {
 variable "ORIGIN_SITE" {
   type = string
 }
+
+variable "DOMAIN_NAME" {
+  type = string
+}
