@@ -10,6 +10,10 @@ terraform {
       source  = "volterraedge/volterra"
       version = "0.10.0"
     }
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "=2.46.0"
+    }
   }
 }
 
@@ -17,6 +21,10 @@ provider "volterra" {
   # Configuration options.
   url          = format("https://%s.console.ves.volterra.io/api", var.TENANT)
   api_p12_file = var.API_P12_PATH
+}
+
+provider "azurerm" {
+  features {}
 }
 
 resource "volterra_origin_pool" "gcp-origin" {
