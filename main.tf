@@ -1,3 +1,4 @@
+# a comment
 terraform {
   backend "azurerm" {
     resource_group_name  = "arch-volterra-tf-backend"
