@@ -1,34 +1,4 @@
-source: 2
-revision: 14
-description: null
-createdBy:
-    displayName: Stephen Archer
-    url: >-
-        https://spsproduks1.vssps.visualstudio.com/Aaec50ebc-e6b6-4b21-b201-2c7dfc5ddc3d/_apis/Identities/23df595e-3a21-677c-86b4-21f2cf44c6e3
-    _links:
-        avatar:
-            href: >-
-                https://dev.azure.com/Stephen-Archer/_apis/GraphProfile/MemberAvatars/aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
-    id: 23df595e-3a21-677c-86b4-21f2cf44c6e3
-    uniqueName: S.Archer@F5.com
-    imageUrl: >-
-        https://dev.azure.com/Stephen-Archer/_apis/GraphProfile/MemberAvatars/aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
-    descriptor: aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
-createdOn: '2021-11-01T15:34:49.543Z'
-modifiedBy:
-    displayName: Stephen Archer
-    url: >-
-        https://spsproduks1.vssps.visualstudio.com/Aaec50ebc-e6b6-4b21-b201-2c7dfc5ddc3d/_apis/Identities/23df595e-3a21-677c-86b4-21f2cf44c6e3
-    _links:
-        avatar:
-            href: >-
-                https://dev.azure.com/Stephen-Archer/_apis/GraphProfile/MemberAvatars/aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
-    id: 23df595e-3a21-677c-86b4-21f2cf44c6e3
-    uniqueName: S.Archer@F5.com
-    imageUrl: >-
-        https://dev.azure.com/Stephen-Archer/_apis/GraphProfile/MemberAvatars/aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
-    descriptor: aad.MjNkZjU5NWUtM2EyMS03NzdjLTg2YjQtMjFmMmNmNDRjNmUz
-modifiedOn: '2021-11-01T18:32:25.257Z'
+
 isDeleted: false
 lastRelease:
     id: 24

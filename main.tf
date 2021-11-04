@@ -10,10 +10,10 @@ terraform {
       source  = "volterraedge/volterra"
       version = "0.10.0"
     }
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "=2.46.0"
-    }
+    # azurerm = {
+    #   source  = "hashicorp/azurerm"
+    #   version = "=2.46.0"
+    # }
   }
 }
 
@@ -23,9 +23,9 @@ provider "volterra" {
   api_p12_file = var.API_P12_PATH
 }
 
-provider "azurerm" {
-  features {}
-}
+# provider "azurerm" {
+#   features {}
+# }
 
 resource "volterra_origin_pool" "gcp-origin" {
   name                   = format("gcp-%s-tf", var.SHORTNAME)
