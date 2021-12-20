@@ -8,7 +8,7 @@ terraform {
   required_providers {
     volterra = {
       source  = "volterraedge/volterra"
-      version = "0.11.0"
+      version = "0.11.2"
     }
     # azurerm = {
     #   source  = "hashicorp/azurerm"
@@ -63,7 +63,9 @@ resource "volterra_http_loadbalancer" "gcp-nginx-lb" {
   disable_rate_limit              = true
   no_service_policies             = true
   disable_waf                     = true
-
+  multi_lb_app                    = true
+  user_id_client_ip               = true
+  
   http {
     dns_volterra_managed = true
   }
